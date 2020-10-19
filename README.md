@@ -5,10 +5,11 @@ The api is accessed in the front end by using javascript fetch() method and rend
 
 <h3>To get the live demo of the application follow the <a href="http://ayyappan.pythonanywhere.com/">link.</a></h3>
 <h5>API Paths:</h5><br>
-<p>Read:http://ayyappan.pythonanywhere.com/api/task-list/</p>
 <p>Create:http://ayyappan.pythonanywhere.com/api/task-create/</p>
-<p>Update:http://ayyappan.pythonanywhere.com/api/task-update/</p>
-<p>Delete:http://ayyappan.pythonanywhere.com/api/task-delete/</p><br>
+<p>Read:http://ayyappan.pythonanywhere.com/api/task-list/</p>
+<p>Update:http://ayyappan.pythonanywhere.com/api/task-update/id/</p>
+<p>Delete:http://ayyappan.pythonanywhere.com/api/task-delete/id/</p><br>
+<p>Note:: 'id' in update and delete relates to item id.</p>
 <h3>Tools and Technologies</h3>
 <li>Django 3.0</li>
 <li>Django RestFramework</li>

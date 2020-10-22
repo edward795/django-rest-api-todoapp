@@ -9,7 +9,7 @@ The api is accessed in the front end by using javascript fetch() method and rend
 <p>Read:http://ayyappan.pythonanywhere.com/api/task-list/</p>
 <p>Update:http://ayyappan.pythonanywhere.com/api/task-update/id/</p>
 <p>Delete:http://ayyappan.pythonanywhere.com/api/task-delete/id/</p><br>
-<p>Note:: 'id' in update and delete relates to item id.</p>
+<p>Note:: 'id' in update and delete relates to item id in database.</p>
 <h3>Tools and Technologies</h3>
 <li>Django 3.0</li>
 <li>Django RestFramework</li>
